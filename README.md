@@ -13,7 +13,7 @@ A simple and responsive To-Do List application built using Vite, Tailwind CSS, a
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/AwaniCaleb/To-Do-List.git
 
 2. Install dependencies:
     ```bash
