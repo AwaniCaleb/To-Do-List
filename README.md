@@ -4,7 +4,7 @@ A functional To-Do List application focused primarily on showcasing JavaScript c
 
 [Live Demo](https://ac-profile-card.vercel.app/)
 
-![Screenshot](/public/screenshots/1.png)
+![Screenshot](/public/images/screenshots/1.png)
 
 ## Features
 - Add and delete tasks with ease.
