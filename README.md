@@ -1,8 +1,14 @@
 # To-Do List Web App
-A simple and responsive To-Do List application built using Vite, Tailwind CSS, and vanilla JavaScript. Features include task addition and deletion with a clean and minimal design, optimized for modern web development. I tried.
+
+A functional To-Do List application focused primarily on showcasing JavaScript coding concepts using modular classes. While the CSS styling isn't perfect, feel free to enhance the interface and improve the design. Contributions are welcome!
+
+[Live Demo](https://ac-profile-card.vercel.app/)
+
+![Screenshot](/public/screenshots/1.png)
 
 ## Features
-- Add and delete tasks.
+- Add and delete tasks with ease.
+- Modular JavaScript code structure for maintainability.
 
 ## Technologies Used
 - **HTML, CSS, JavaScript**
@@ -12,18 +18,15 @@ A simple and responsive To-Do List application built using Vite, Tailwind CSS, a
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/AwaniCaleb/To-Do-List.git
 
 2. Install dependencies:
-    ```bash
-    npm install
+   ```bash
+   npm install
 
 3. Run the development server:
-    ```bash
-    npm run dev
+   ```bash
+   npm run dev
 
 ## Deployment
-Deployed on GitHub Pages: Soon
-
-----
-Let me know if you’d like any tweaks!
+Deployed on Vercel: [Live Demo](https://ac-profile-card.vercel.app/)
