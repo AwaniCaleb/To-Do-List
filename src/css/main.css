@@ -1,0 +1,12 @@
+:root, body {
+	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+	color-scheme: light dark;
+	background-color: #242424;
+}
+
+@media (prefers-color-scheme: light) {
+	:root, body {
+		color: #213547;
+		background-color: #ffffff;
+	}
+}

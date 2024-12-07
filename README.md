@@ -3,7 +3,6 @@ A simple and responsive To-Do List application built using Vite, Tailwind CSS, a
 
 ## Features
 - Add and delete tasks.
-- Fully responsive design.
 
 ## Technologies Used
 - **HTML, CSS, JavaScript**

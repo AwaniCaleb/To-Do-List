@@ -3,14 +3,59 @@
 
 <head>
 	<meta charset="UTF-8" />
-	<link rel="icon" type="image/svg+xml" href="/vite.svg" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>Vite App</title>
+	<title>To-Do List | Awani Caleb</title>
+
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+
+	<link rel="stylesheet" href="/src/css/style.css">
 </head>
 
-<body>
-	<div id="app"></div>
-	<script type="module" src="/src/main.js"></script>
+<body class="bg-purple-500">
+	<main class="h-screen flex justify-center">
+		<div class="sections w-5/6 sm:w-3/4 md:w-1/2 lg:w-1/3 gap-10 flex flex-col my-5">
+			<div id="new-todo-section" class="border p-4 rounded-md shadow-lg bg-white flex items-center justify-center">
+				<div class="border-gray-200 h-10 w-10 animate-spin rounded-full border-2 border-t-primary-light"></div>
+			</div>
+
+			<div class="border rounded-md shadow-lg bg-white">
+				<div class="border-b border-gray-200">
+					<nav id="task-category-nav" class="-mb-px flex" aria-label="Tabs">
+						<a href="#" class="task-category active" id="pending-todo-tab">
+							Pending
+						</a>
+						<a href="#" class="task-category" id="completed-todo-tab">
+							Completed
+						</a>
+					</nav>
+				</div>
+
+				<div id="pending-todo-section" class="p-4 task-list">
+					<fieldset>
+						<legend class="sr-only">Pending Task List</legend>
+
+						<div class="space-y-2" d-c="todo-list">
+							<div class="flex items-start justify-center p-5" d-c="loader">
+								<div class="border-gray-200 h-10 w-10 animate-spin rounded-full border-2 border-t-primary-light"></div>
+							</div>
+						</div>
+					</fieldset>
+				</div>
+
+				<div id="completed-todo-section" class="p-4 task-list">
+					<fieldset>
+						<legend class="sr-only">Completed Task List</legend>
+
+						<div class="space-y-2" d-c="todo-list"></div>
+					</fieldset>
+				</div>
+
+				<p class="text-sm text-center text-neutral-400 px-2 py-4">Designed and created by <a href="https://ac-profile-card.vercel.app/" target="_blank" rel="noopener noreferrer" class="italic text-primary">Awani Caleb</a></p>
+			</div>
+		</div>
+	</main>
+
+	<script type="module" src="/src/js/main.js"></script>
 </body>
 
 </html>

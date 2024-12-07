@@ -6,12 +6,19 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "tail-build": "npx tailwindcss -i ./src/css/tailwind.css -o ./src/css/style.css --watch",
+    "preview": "vite preview",
+    "deploy": "vite build && vite-plugin-gh-pages"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.20",
     "postcss": "^8.4.49",
     "tailwindcss": "^3.4.15",
-    "vite": "^6.0.1"
+    "vite": "^6.0.1",
+    "vite-plugin-gh-pages": "^1.0.0"
+  },
+  "dependencies": {
+    "@tailwindcss/forms": "^0.5.9",
+    "tailwind-content-placeholder": "^0.0.5"
   }
 }
